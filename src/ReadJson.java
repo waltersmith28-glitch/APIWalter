@@ -86,7 +86,7 @@ public class ReadJson {
 
             String name = (String)jsonObject.get("name");
 
-            org.json.simple.JSONArray msg = (org.json.simple.JSONArray) jsonObject.get("films");
+            org.json.simple.JSONArray msg = (org.json.simple.JSONArray) jsonObject.get("starships");
             int n =   msg.size(); //(msg).length();
             for (int i = 0; i < n; ++i) {
                 String test =(String) msg.get(i);
